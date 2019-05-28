@@ -16,6 +16,7 @@ const PokemonDetail = ({pokemon})  => {
   return (
     <div>
     <h1>{pokemon.name}</h1>
+    <img src = {pokemon.sprites.front_default}></img>
     <h2>Weight:{pokemon.weight}</h2>
     <ul>{allMoves(pokemon.moves)}</ul>
     </div>
